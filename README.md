@@ -7,3 +7,5 @@
     <li> $npm start</li><br>
   <p><b> Se abrira automaticamente el navegador en http://localhost:3000/</p></b>
   </ol>
+ <p><b>En HTML linea 270 . Se agrego un reload, porque en el formulario "Realizar una transferencia" no actualiza listado de usuarios cuando se elimina un usuario"<br>
+    location.reload(true)</p></b
