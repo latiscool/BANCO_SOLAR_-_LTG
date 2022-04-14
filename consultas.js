@@ -66,8 +66,8 @@ const eliminarUsuario = async (id) => {
 
 const postTransferencias = async (datos) => {
   const data = Object.values(datos); //Indices   0         1        2
-  console.log('data', data); //Arreglo con ['emisor','receptor','monto']
-  console.log('data0', data[0]); //Capta el emisor
+  //console.log('data', data); //Arreglo con ['emisor','receptor','monto']
+  //console.log('data0', data[0]); //Capta el emisor
 
   const cta1Res = {
     name: 'Emisor descontar Saldo cuenta1',
