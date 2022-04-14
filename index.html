@@ -216,6 +216,12 @@
       alert("Debe seleccionar un emisor, receptor y monto a transferir");
       return false;
     }
+    
+    if(emisor == receptor){
+      alert("El emisor y receptor no pueder el mismo usuario, Operacion Invalida");
+      return false;
+    }
+    
     try {
       const response = await fetch("http://localhost:3000/transferencia", {
         method: "post",
